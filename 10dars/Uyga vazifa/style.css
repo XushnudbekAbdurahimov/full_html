@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+body{
+     background-color: rgb(34, 129, 148);
+}
+form{
+     border: 2px solid rgb(34, 129, 148);
+     width: 620px;
+     height: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 40px;
+     background-color: rgb(14, 61, 74);
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     display: flex;
+     flex-direction: column;
+     border-radius: 10px;
+}
+form label{
+     color: white;
+     height: 35px;
+     padding-top: 15px;
+     font-size: small;
+}
+form h3{
+     color: white;
+     margin-left: auto;
+     margin-right: auto;
+}
+form p{
+     color: rgb(97, 111, 113);
+     height: 15px;
+     padding-top: 5px;
+     margin-left: auto;
+     margin-right: auto;
+}
+form input{
+     height: 40px;
+     border-radius: 4px;
+     text-indent: 15px;
+}
+form a{
+     display: block;
+     margin: auto;
+     /* o'rtaga keladi */
+     text-decoration: none;
+     color: blue;
+}
+form button{
+     height: 45px;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: none;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+form h5{
+     display: flex;
+     justify-content: space-between;
+}
+ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+}
+.div-21{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 10px;
+     color: white;
+     margin-top: 19px;
+     
+     
+}
+form div-22{
+     display: block;
+     
+}
+ .div-23{
+     margin: auto;
+     margin-right: 2px;
+     color: white;
+}
+.div-24{
+     margin: auto;
+     margin-left: 2px;
+} 
+p{
+     font-size: smaller;
+}

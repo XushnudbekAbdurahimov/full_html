@@ -1,0 +1,55 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+display: flex;
+}
+
+
+.sidebar {
+     width: 200px;
+     height: 100vh;
+     /* viewport height => ko'rinish balandligi */
+     background-color: rgb(216, 241, 19);
+
+}
+
+.logo {
+     /* border: 4px solid rgb(22, 183, 60); */
+     width: fit-content;
+     /* Bu faqat o'ziga tegishli joyga tegadi xolos */
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.sidebar ul {
+     /* border: 2px solid rgb(218, 141, 25); */
+}
+
+.sidebar ul li {
+     /* border: 2px solid rgb(65, 198, 35); */
+     padding-left: 30px;
+     height: 40px;
+     padding-top: 7px;
+     /* padding-top tepadagi so'zni pastga tushurib beradi */
+}
+.sidebar ul li :hover{
+     padding-left: 40px;
+}
+.sidebar ul li a{
+     text-decoration: none;
+     color: white;
+}
+a{
+     text-decoration: none;
+}
+.div-1001{
+     text-align: center;
+     align-items: center;
+}
+.sidebar ul li img {
+     width: 20px;
+     height: 20px;
+ }

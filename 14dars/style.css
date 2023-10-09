@@ -1,0 +1,207 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     /* background: linear-gradient(290deg, rgb(144, 68, 11), rgb(97, 18, 89)); */
+     /* background: linear-gradient(-135deg, rgb(105, 12, 163), rgb(165, 3, 3)); */
+     background: linear-gradient(-290deg, black, blue);
+}
+.main{
+     /* background: linear-gradient(-135deg, rgb(105, 12, 163), rgb(165, 3, 3)); */
+
+}
+.main h1{
+     text-align: center;
+     color: azure;
+     /* border: 2px solid ; */
+     background: linear-gradient(-0deg, rgb(141, 10, 139), rgb(36, 21, 169));
+     height: 50px;
+     padding-top: 5px;
+
+}
+.main h1 mark{
+     color: rgb(8, 33, 146);
+     background-color: rgb(71, 202, 5);
+     border-radius: 6px;
+}
+.main h2{
+     margin-top: 15px;
+     margin-left: 35px;
+     border: 1px dashed black;
+     width: fit-content;
+     border-radius: 5px;
+     background-color: chartreuse;
+}
+.main h3{
+     margin-top: 15px;
+     margin-left: 35px;
+     font-size: x-large;
+     border: 1px dashed  black;
+     width: 653px;
+     border-radius: 5px;
+     background-color: blueviolet;
+     
+
+     
+}
+.main_1 h3{
+     margin-top: 15px;
+     margin-left: 35px;
+     font-size: x-large;
+     border: 1px dashed  black;
+     width: 653px;
+     border-radius: 5px;
+     background-color: rgb(194, 172, 49);
+
+     
+}
+.main_3{
+     /* background: linear-gradient(-135deg, rgb(105, 12, 163), rgb(165, 3, 3)); */
+
+}
+.main_3 ul{
+     display: flex;
+     justify-content: space-between;
+}
+.main_3 ul li{
+     list-style: none;
+}
+.main_3 ul li a img{
+     margin-top: 20px;
+     margin-left: 150px;
+     margin-right: 150px;
+     border-radius: 20px;
+}
+.main_2{
+     border: 2px solid violet;
+     width: 500px;
+     height: 600px;
+     border-radius: 15px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+     background: linear-gradient(-290deg, red, yellow);
+}
+.main_2 .div_1{
+     border: 1px solid blue;
+     border-radius: 10px;
+     border-left: none;
+     height: 50px;
+     background: linear-gradient(-135deg,violet, blue);
+}
+.main_2 .div_1 h2{
+     margin-top: 8px;
+}
+.main_4{
+     border: 5px solid black;
+     background-color: rgb(58, 143, 41);
+     margin-top: 25px;
+     border-radius: 10px;
+     width: 1000px;
+}
+.main_5{
+     border: 2px solid white;
+     width: 500px;
+     margin-top: 10px;
+     background-color: rgb(189, 14, 14);
+}
+.main_6{
+     border: 4px solid greenyellow;
+     width: 400px;
+     margin-left: 800px;
+     border-radius: 6px;
+     border-top: none;
+     border-bottom: none;
+}
+.main_6 h1{
+     color: cadetblue;
+     text-align: center;
+}
+.main_6 h2{
+     color: yellow;
+}
+.div_2{
+     background: linear-gradient(-290deg, rgb(8, 88, 145), pink);
+}
+.main_7{
+     border: 3px solid white;
+     margin-top: 15px;
+     background-color: cornflowerblue;
+     border-radius: 55px;
+     background-image: url("./Без\ названия\ \(9\).jfif");
+     color: rgb(218, 255, 11);
+     background-repeat: no-repeat;
+     background-size: 900px;
+}
+.main_8{
+     border: 2px solid white;
+     width: 500px;
+     margin-top: 10px;
+     background-color: rgb(189, 14, 14);
+}
+.main_9{
+     border: 4px solid greenyellow;
+     width: 400px;
+     margin-left: 800px;
+     border-radius: 6px;
+     border-top: none;
+     border-bottom: none;
+     margin-bottom: 10px;
+}
+.main_9 h1{
+     color: cadetblue;
+     text-align: center;
+}
+.main_9 h2{
+     color: yellow;
+}
+.main_10{
+     margin-top: 20px;
+     border: 2px solid black;
+     background: linear-gradient(-135deg, violet, blue);
+     height: 50px;
+}
+.main_11{
+     margin-top: 20px;
+     border: 2px solid black;
+     background: linear-gradient(-135deg, rgb(11, 154, 170), yellow);
+     height: 50px;
+}
+.main_12{
+     margin-top: 20px;
+     border: 2px solid black;
+     background: linear-gradient(-135deg, rgb(114, 10, 135), rgb(157, 111, 13));
+     height: 50px;
+}
+.main_13{
+     background: linear-gradient(-135deg, red, blue);
+}
+.main_14{
+     background-color: rgb(80, 78, 78);
+     height: 25vh;
+     margin-top: 25px;
+}
+.main_14 ul{
+     list-style: none;
+     display: flex;
+     gap: 20px;
+     margin-left: 15px;
+     margin-top: 5px;
+     /* border-bottom: 4px; */
+     margin-left: 115px;
+     /* border-radius: ; */
+
+}
+.main_14 h1{
+     border: 1px solid burlywood;
+     width: fit-content;
+     border-radius: 5px;
+     margin-top: 25px;
+     margin-left: 35px;
+     background-color: aqua;
+}
+.main_14 ul li a img{
+     border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.btn{
+     width: 200px;
+     height: 50px;
+     /* border: 2px solid black; */
+     border-radius: 50px;
+     margin: auto;
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+     position: relative;
+     cursor: grab;
+     /* bu sichqonchani ushlaganingizda kursov almashadi */
+     transition: 0.2s;
+     user-select: none;
+}
+.btn:hover::before{
+     background-color: red;
+     width: 100%;
+}
+.btn:active{
+     cursor: pointer;
+     transform: scale(0.95);
+}
+.btn::before{
+     content: "";
+     width: 50px;
+     height: 50px;
+     left: 0;
+     background-color: rgba(255, 0, 0, 0.4);
+     position: absolute;
+     border-radius: 50px;
+     transition: 1s;
+}
+.btn span{
+     font-weight: 600;
+     font-size: 24px;
+     margin-bottom: 2px;
+     z-index: 10;
+     letter-spacing: 3px;
+     /* bu xarflar orasidagi joyni ochb beradi */
+}
+.btn svg{
+     /* border: 2px solid red; */
+     width: 18px;
+     height: 18px;
+     margin-left: 20px;
+     z-index: 10;
+     transition: 1s;
+}
+.btn:hover svg{
+     transform: translateX(5px);
+}

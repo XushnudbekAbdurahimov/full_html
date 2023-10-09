@@ -1,0 +1,189 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar ul {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+
+}
+
+.container {
+     /* border: 2px solid white; */
+     position: absolute;
+     margin-top: 25px;
+}
+
+.navbar a {
+     text-decoration: none;
+     color: gray;
+     padding-left: 200px;
+     padding-right: 200px;
+     margin-top: 20px;
+}
+
+.div{
+     margin-bottom: 20px;
+     position: sticky;
+     top: 0;
+     left: 0;
+     margin-top: 0;
+     z-index: 150;
+}
+.div img{
+     position: sticky;
+}
+
+.img {
+     margin-top: 10px;
+}
+
+.main_1 {
+     border: 1px solid white;
+     width: 637px;
+     height: 603px;
+     margin-top: 79px;
+     margin-right: auto;
+     margin-bottom: 0px;
+     margin-left: 190px;
+     background-color: #f1c50e;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.main_2 {
+     border: 1px solid #f2f2f2;
+     width: 519px;
+     height: 519px;
+     position: absolute;
+     top: 0;
+
+     background-color: #f2f2f2;
+     
+     margin-left: 250px;
+     z-index: 20;
+}
+.main_2 h1{
+     font-size: 60px;
+     margin-left: 40px;
+     margin-top: 50px;
+}
+.main_2 p{
+     font-size: 18px;
+     margin-left: 45px;
+     margin-top: 20px;
+
+}
+.main_2 p a{
+     color: black;
+     
+}
+.main_2 p a:hover{
+     text-decoration-color: aqua;
+     /* color: white; */
+}
+.main_2 p a u{
+     text-decoration: #f1c50e;
+}
+.main_2 button{
+     background-color: #f1c50e;
+     border-color: #f2f2f2;
+     font-size: 20px;
+     width: 200px;
+     height: 40px;
+     margin-top: 20px;
+     margin-left: 100px;
+     
+}
+.main_2 button a{
+     text-decoration: none;
+     color: black;
+}
+.main_2 form button:hover{
+     background-color: black;
+     color: white;
+}
+.main_2 form button:hover a{
+     color: white;
+}
+
+.main_3 {
+     border: 1px solid #f2f2f2;
+     width: 761px;
+     height: 579px;
+     position: absolute;
+     background-color: #f2f2f2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 280px;
+     z-index: 19;
+     background-image: url("./cxcc.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: -429px;
+     margin-right: 105px;
+     margin-bottom: 0px;
+     margin-left: 420px;
+}
+.main_4{
+     border: 2px solid #f1c50e;
+     width: 309px;
+     height: 314px;
+     background-color: #f1c50e;
+     margin-left: 100px;
+     margin-top: 610px;
+     position: absolute;
+
+}
+.main_4 h1{
+     margin: auto;
+     /* text-align: center; */
+     /* display: block; */
+     /* align-items: center; */
+     margin-top: 80px;
+}
+.main_4 p{
+     padding-left: 30px;
+     margin-top: 50px;
+}
+.main_5{
+     border: 2px solid #f1c50e;
+     width: 310px;
+     height: 314px;
+     background: url("./pretty-young-lady-dressed-raincoat-sitting-car_171337-3516.jpg");
+     background-size: cover;
+     margin-left: 718px;
+     position: absolute;
+     margin-top: 610px;
+}
+.div_div{
+     border: 2px solid black;
+     background-color: black;
+     width: 100%;
+     height: 300px;
+     margin-top: 70%;
+}
+.div_div p{
+     color: white;
+     text-align: center;
+     margin-top: 40px;
+}
+.div_div h4{
+     color: white;
+     margin-left: 535px;
+     margin-top: 160px;
+}
+.div_div h4 a{
+     color: aqua;
+}
+.div_div h4 a:hover{
+     text-decoration: none;
+     color: gray;
+}

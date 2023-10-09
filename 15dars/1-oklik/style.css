@@ -1,0 +1,107 @@
+body{
+     background: linear-gradient(-135deg, green, yellow);
+}
+.main_1{
+     display: flex;
+     justify-content: space-between;
+     padding-left: 100px;
+     padding-right: 100px;
+     border: 2px solid black;
+     background-color: aqua;
+     border-color: chartreuse;
+     border-radius: 5px;
+}
+.main_1 h1{
+     color: darkolivegreen;
+}
+.main_1 ul{
+     display: flex;
+     justify-content: space-between;
+     width: 500px;
+     align-items: center;
+     list-style: none;
+}
+.main_1 ul li a{
+     text-decoration: none;
+     color: rgb(203, 5, 51);
+     font-size: larger;
+}
+.main_2{
+     border: 4px solid hotpink;
+     width: 450px;
+     margin: auto;
+     margin-top: 20px;
+}
+.main_2 h1{
+     text-align: center;
+     color: blueviolet;
+}
+.div_1 h3{
+     background-image: url("./Без\ названия\ \(6\).jfif");
+     margin-top: 25px;
+}
+.div_2 h3{
+     background-image: url("./Без\ названия\ \(7\).jfif");
+     margin-top: 25px;
+}
+.div_3 h3{
+     background-image: url("./Без\ названия\ \(8\).jfif");
+     margin-top: 25px;
+     color: red;
+}
+.div_4 h3{
+     background-image: url("./qwer.jpg");
+     margin-top: 25px;
+     color: rgb(20, 200, 200);
+}
+.main_4{
+     background-color: black;
+     color: blue;
+}
+.main_4 h2{
+     border: 4px solid greenyellow;
+     width: 400px;
+     margin-left: 800px;
+     border-radius: 6px;
+     border-top: none;
+     border-bottom: none;
+     margin-bottom: 10px;
+}
+.div_6{
+     border: 2px solid red;
+     width: fit-content;
+}
+.main_5{
+     background-color: black;
+     color: blue;
+}
+.main_5 h2{
+     border: 4px solid greenyellow;
+     width: 400px;
+     margin-left: 800px;
+     border-radius: 6px;
+     border-top: none;
+     border-bottom: none;
+     margin-bottom: 10px;
+}
+.div_8{
+     border: 2px solid red;
+     width: fit-content;
+}
+.main_6{
+     background-color: black;
+     color: blue;
+}
+.main_6 h2{
+     border: 4px solid greenyellow;
+     width: 400px;
+     margin-left: 800px;
+     border-radius: 6px;
+     border-top: none;
+     border-bottom: none;
+     margin-bottom: 10px;
+}
+.div_9{
+     border: 2px solid red;
+     width: fit-content;
+}

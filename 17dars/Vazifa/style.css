@@ -1,0 +1,108 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.box{
+     /* border: 2px solid red; */
+     width: 212px;
+     height: 215px;
+     margin-top: 40px;
+     margin-left: 40px;
+     transition: 1s;
+     background-color: rgb(52, 174, 54);
+}
+.box:hover{
+     transition: 1s;
+     width: 216px;
+}
+.box:hover img{
+     height: 200px;
+     width: 200px;
+     margin-top: -60px;
+     margin-left: -50px;
+     transition: 1s;
+}
+.crad{
+     /* border: 2px solid red; */
+     width: 212px;
+     height: 212px;
+     margin-top: 40px;
+     margin-left: 40px;
+     transition: 1s;
+     background-color: rgb(52, 174, 54);
+}
+.crad:hover{
+     transition: 1s;
+}
+.crad:hover img{
+     height: 200px;
+     width: 200px;
+     margin-top: -60px;
+     margin-left: -50px;
+     transition: 1s;
+}
+.card{
+     /* border: 2px solid red; */
+     width: 212px;
+     height: 210px;
+     margin-top: 40px;
+     margin-left: 40px;
+     transition: 1s;
+     background-color: rgb(52, 174, 54);
+     transition-delay: 1s;
+}
+.card:hover{
+     transition: 1s;
+}
+.card:hover border{
+     width: 216px;
+}
+.card:hover img{
+     height: 200px;
+     width: 200px;
+     margin-top: -60px;
+     margin-left: -50px;
+     transition: 1s;
+}
+.main{
+     /* display: flex;
+     justify-content: space-between;
+     border: 2px solid black;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: 300px;
+     padding-right: 180px;
+     background-color: rgb(219, 219, 219);
+} */
+
+     border: 2px solid whitesmoke;
+     width: 820px;
+     height: 300px;
+     display: flex;
+     /* margin-top: -100px; */
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: whitesmoke;
+     transition: 2s;
+
+     
+}
+.main
+.main h2{
+     color: whitesmoke;
+     text-align: center;
+
+}
+.main p{
+     color: whitesmoke;
+     text-align: center;
+}
+.main:hover{
+     transition: 1s;
+     /* transform: translate(0, 3.5rem); */
+}

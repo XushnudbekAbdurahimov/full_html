@@ -1,0 +1,39 @@
+*
+     margin: 0
+     padding: 0
+     box-sizing: border-box
+
+.container
+     width: 500px
+     height: 500px
+     border: 2px solid black
+     margin: auto
+     margin-top: 50px
+     display: flex
+     justify-content: center
+     align-items: center
+     transition: 2s
+     background: linear-gradient(-45deg, red, blue)
+
+
+     &:hover
+          background: linear-gradient(-45deg, red, blue)
+          .box
+               background: linear-gradient(-45deg, red, blue)
+               color: white
+               width: 500px
+               height: 500px
+
+     .box
+          width: 100px
+          height: 100px
+          background-color: blue
+          color: white
+          display: flex
+          justify-content: center
+          align-items: center
+          transition: 2s
+          border-radius: 50%
+          background: linear-gradient(-45deg, red, blue)
+
+               

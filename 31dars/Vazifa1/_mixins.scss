@@ -1,0 +1,189 @@
+@import "./valiables";
+
+@mixin img() {
+     width: 600px;
+     height: 500px;
+     object-position: top;
+     object-fit: cover;
+}
+
+
+@mixin about1() {
+     width: 490px;
+     height: 330px;
+     border: 10px solid $backcolor;
+     background-color: white;
+     padding-left: 40px;
+     background-color: rgb(245, 252, 253);
+}
+
+@mixin h21() {
+     font-family: "Century Gothic", sans-serif;
+     font-size: 30px;
+     font-weight: 700;
+     line-height: 36px;
+     color: $backcolor;
+     margin-top: 40px;
+}
+
+@mixin p1 {
+     color: rgb(69, 69, 69);
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 32px;
+     margin-top: 20px;
+
+}
+
+@mixin button1 {
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 3px;
+     width: 112px;
+     height: 40px;
+     border: 2px solid $backcolor;
+     background-color: white;
+     margin-top: 35px;
+
+}
+
+@mixin line1 {
+     border-bottom: 1px solid $backcolor;
+     width: 42px;
+     margin-top: 25px;
+}
+
+
+
+
+@mixin img() {
+     width: 600px;
+     height: 500px;
+     object-position: top;
+     object-fit: cover;
+     margin-left: -50px;
+}
+
+@mixin about2() {
+     width: 490px;
+     height: 330px;
+     border: 10px solid $nextcolor;
+     background-color: white;
+     padding-left: 40px;
+     background-color: rgb(245, 252, 253);
+     z-index: 15;
+}
+
+@mixin h22() {
+     font-family: "Century Gothic", sans-serif;
+     font-size: 30px;
+     font-weight: 700;
+     line-height: 36px;
+     color: $nextcolor;
+     margin-top: 40px;
+}
+
+@mixin p2 {
+     color: rgb(69, 69, 69);
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 32px;
+     margin-top: 20px;
+
+}
+
+@mixin button2 {
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 3px;
+     width: 112px;
+     height: 40px;
+     border: 2px solid $nextcolor;
+     background-color: white;
+     margin-top: 35px;
+
+}
+
+@mixin line2 {
+     border-bottom: 1px solid $nextcolor;
+     width: 42px;
+     margin-top: 25px;
+}
+
+
+
+
+
+
+@mixin media_img {
+     margin: 0;
+     padding: 0;
+     width: 90%;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+}
+
+@mixin media_card1 {
+     width: 100vh;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0;
+     padding: 0;
+     margin: auto;
+}
+
+@mixin media_about1 {
+     margin: auto;
+     margin-top: -50px;
+     border: 20px solid $backcolor;
+     padding: 0;
+     width: 70%;
+     height: 80vh;
+}
+
+@mixin media_about1_h2 {
+     font-size: 71px;
+     width: 250px;
+     line-height: 78px;
+     text-align: center;
+     margin: auto;
+     margin-top: 50px;
+}
+
+@mixin media_about1_line1 {
+     margin: auto;
+     margin-top: 20px;
+     width: 100px;
+     border-bottom: 3px solid $backcolor;
+}
+
+@mixin media_about1_p1 {
+     width: 300px;
+     font-size: 30px;
+     text-align: center;
+     margin: auto;
+     margin-top: 30px;
+     line-height: 35px;
+}
+
+@mixin media_about1_button1 {
+     width: 200px;
+     height: 60px;
+     text-align: center;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     font-size: 36px;
+}

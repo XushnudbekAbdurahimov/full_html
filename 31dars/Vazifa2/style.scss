@@ -1,0 +1,40 @@
+@import "./mixins";
+@import "./valiables";
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     background-image: url("./pexels-photo-5965948.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: cover;
+     height: 100vh;
+     padding-top: 180px;
+
+     h1 {
+          font-family: $font-size;
+          color: white;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+     }
+
+     .boxs {
+          @include boxs();
+
+          .box {
+               @include box();
+          }
+     }
+}
+.main{
+     width: 100%;
+     height: 100vh;
+     background-color: black;
+
+}

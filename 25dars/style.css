@@ -1,0 +1,106 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ .container{
+     width: 500px;
+     height: 500px;
+     border: 2px solid black;
+     margin: auto;
+     margin-top: 50px;
+     background-color: rgb(174, 144, 123);
+
+ }
+ .box{
+     width: 100px;
+     height: 100px;
+     background-color: chocolate;
+     margin: 0px;
+     animation-name: myanime;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+  
+ }
+ .box2{
+     width: 100px;
+     height: 100px;
+     background-color: chocolate;
+     margin: 0px;
+     animation-name: myanime2;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+     animation-delay: 0.4s;
+  
+ }
+ .box3{
+     width: 100px;
+     height: 100px;
+     background-color: chocolate;
+     margin: 0px;
+     animation-name: myanime2;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+  
+ }
+ @keyframes myanime2{
+     /* from{
+         transform: translateX(0);
+     }
+     to{
+         transform: translateX(400px);
+     } */
+ 
+     0%{
+         transform: translateX(0);
+     }
+     25%{
+         transform: translateX(400px);
+     }
+     50%{
+         transform: translatex(400px)
+         translateY(400px);
+ 
+     }
+     75%{
+         transform: translatex(0px)
+         translateY(400px); 
+     }
+ 
+     100%{
+         transform: translateX(0);
+     }
+     
+ }
+ @keyframes myanime{
+     /* from{
+         transform: translateX(0);
+     }
+     to{
+         transform: translateX(400px);
+     } */
+ 
+     0%{
+         transform: translateX(0);
+     }
+     25%{
+         transform: translateX(400px);
+     }
+     50%{
+         transform: translatex(400px)
+         translateY(400px);
+ 
+     }
+     75%{
+         transform: translatex(0px)
+         translateY(400px); 
+     }
+ 
+     100%{
+         transform: translateX(0);
+     }
+     
+ }

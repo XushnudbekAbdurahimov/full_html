@@ -1,0 +1,82 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     width: 1000px;
+     height: auto;
+     border: 10px solid blue;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     margin: auto;
+     margin-top: 50px;
+     grid-gap: 10px;
+}
+.container img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: 1s;
+}
+img:nth-child(1){
+     filter: blur(5px);
+}
+img:nth-child(1):hover{
+     filter: blur();
+}
+/* Bu tuman qilib berkitib qo'yadi */
+img:nth-child(2){
+     filter: brightness(0.4);
+}
+img:nth-child(2):hover{
+     filter: brightness(1);
+}
+img:nth-child(3){
+     filter: contrast(200%);
+}
+img:nth-child(3):hover{
+     filter: contrast(100%);
+}
+img:nth-child(4){
+     filter: drop-shadow(0px 0px 20px red);
+}
+img:nth-child(4):hover{
+     filter: drop-shadow(0px 0px 20px blue);
+}
+img:nth-child(5){
+     filter: grayscale(200%);
+}
+img:nth-child(5):hover{
+     filter: grayscale(0%);
+}
+img:nth-child(6){
+     filter: hue-rotate(50deg);
+}
+img:nth-child(6):hover{
+     filter: hue-rotate(0deg);
+}
+img:nth-child(7){
+     filter: invert(100%);
+}
+img:nth-child(7):hover{
+     filter: invert(10%);
+}
+img:nth-child(8){
+     filter: opacity(.5);
+}
+img:nth-child(8):hover{
+     filter: opacity(1);
+}
+img:nth-child(9){
+     filter: saturate(0%);
+}
+img:nth-child(9):hover{
+     filter: saturate(100%);
+}
+img:nth-child(10){
+     filter: sepia(1000%);
+}
+img:nth-child(10):hover{
+     filter: sepia(100%);
+}

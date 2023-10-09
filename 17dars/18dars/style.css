@@ -1,0 +1,62 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     width: 500px;
+     height: 500px;
+     border: 2px solid blue;
+     margin: auto;
+     margin-top: 20px;
+     /* position: relative; */
+     /* position: fixed; */
+     /* bu bitta joyni qotirib qo'yadi */
+    
+     /* position: sticky; */
+     /* bu boshidan oziga boshliq ochib keyin qotib turadi */ 
+     top: 0;
+     left: 400px;
+     background-color: #00000072;
+     position: static;
+     /* O'zini joyiga qaytadi  */
+}
+.box{
+     width: 200px;
+     height: 200px;
+     background-color: rgb(33, 170, 58);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     left: 30px;
+     z-index: 19;
+     
+}
+.box2{
+     width: 250px;
+     height: 250px;
+     background-color: brown;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top: 0;
+     z-index: 10;
+     /* Bu faqat positio borligida ishlaydi */
+     /* Bu qavatlarni belgilaydi 1-qavat 2-qavat */
+
+}
+.box3{
+     width: 200px;
+     height: 200px;
+     background-color: gold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top: 50px;
+     left: 150px;
+     z-index: 18;
+
+}

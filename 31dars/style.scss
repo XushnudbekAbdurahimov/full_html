@@ -1,0 +1,24 @@
+@import "./valiables";
+@import "./mixins";
+.container{
+     width: 500px;
+     height: 500px;
+     margin: auto;
+     margin-top: 50px;
+     border: 2px solid red;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+     .box:nth-child(1){
+          @include theme;
+     }
+
+     .box:nth-child(2){
+          @include theme($theme: red);
+     }
+
+     .box:nth-child(3){
+          @include theme($theme: blue);
+     }
+}

@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Montez&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Palanquin+Dark:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Montez&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Palanquin+Dark:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+     .bg_image {
+          background-image: url("./photo-1418065460487-3e41a6c84dc5.jpg");
+          background-position: center;
+          @media (max-width:500px) {
+           
+               border: 2px solid red;
+               object-fit: cover;
+               background-size: cover;
+               margin: auto;
+          }
+     }
+</style>
+
+<body>
+     <!-- container -->
+     <div class="">
+          <!-- main -->
+          <div class="">
+               <div class="bg_image sm:bg-cover ">
+                    <h3
+                         class="w-[100vh] sm:text-black font-Montserrat text-[20px] font-bold tracking-[5px] m-auto w-100 pt-[130px] flex justify-center aligns-center ">
+                         IN NATURE, NOTHING IS PERFECT</h3>
+                    <h1 class=" sm:font-serif text-[60px] font-bold flex justify-center aligns-center">and everything is
+                         perfect</h1>
+                    <div class="sm:flex justify-center aligns-center mt-[20px]">
+                         <button
+                              class="sm:w-[150px] h-[50px] bg-[rgb(246,123,111)] rounded-2xl text-[16px] font-normal tracking-[1px] text-white">read
+                              more</button>
+                    </div>
+                    <img src="./d-min.png" class=" sm:m-auto flex justify-center aligns-center w-[460px]  mt-[280px] ">
+               </div>
+          </div>
+          <!-- main2 -->
+          <div class="grid-cols-1 sm:w-100 h-[100vh] bg-[rgb(246,123,111)]">
+               <h2 class="sm:font-serif text-[48px] font-bold flex justify-center aligns-center text-white pt-[50px]">
+                    Latest news
+               </h2>
+
+               <!-- Cards -->
+               <div class=" sm:grid grid-cols-3 mt-[30px] w-[75%] m-auto">
+                    <div class="sm:border-2 w-[362px] h-[370px] rounded-xl bg-white"><img src="./5t.jpg"
+                              class="sm:w-[322px] h-[230px] m-auto mt-[30px]">
+                         <h4 class="sm:ml-[20px] text-[18px] font-bold tracking-[2px] mt-[10px]"><a href="#">POST 1
+                                   HEADLINE</a></h4>
+                         <!-- span -->
+                         <div class="sm:flex ml-[20px] aligns-center mt-[15px]">
+                              <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Fri Jun 19 2020 | &nbsp</span>
+                              <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Comments (0)</span>
+                         </div>
+                    </div>
+                    <div class="">
+                         <div class="sm:border-2 w-[362px] h-[370px] rounded-xl bg-white"><img src="./5t.jpg"
+                                   class="sm:w-[322px] h-[230px] m-auto mt-[30px]">
+                              <h4 class="sm:ml-[20px] text-[18px] font-bold tracking-[2px] mt-[10px]"><a href="#">POST 1
+                                        HEADLINE</a></h4>
+                              <!-- span -->
+                              <div class="sm:flex ml-[20px] aligns-center mt-[15px]">
+                                   <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Fri Jun 19 2020 | &nbsp</span>
+                                   <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Comments (0)</span>
+                              </div>
+                         </div>
+
+                    </div>
+                    <div class="">
+                         <div class="sm:border-2 w-[362px] h-[370px] rounded-xl bg-white"><img src="./5t.jpg"
+                                   class="sm:w-[322px] h-[230px] m-auto mt-[30px]">
+                              <h4 class="sm:ml-[20px] text-[18px] font-bold tracking-[2px] mt-[10px]"><a href="#">POST
+                                        1 HEADLINE</a></h4>
+                              <!-- span -->
+                              <div class="sm:flex ml-[20px] aligns-center mt-[15px]">
+                                   <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Fri Jun 19 2020 |
+                                        &nbsp</span>
+                                   <span class="sm:text-[rgb(179, 179, 179)] text-[14px]">Comments (0)</span>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="sm:flex justify-center aligns-center mt-[20px]">
+                         <button
+                              class="sm:w-[150px] h-[50px] bg-[rgb(246,123,111)] rounded-2xl text-[16px] font-normal tracking-[1px] text-transparent ">learn
+                              more</button>
+                    </div>
+                    <div class="sm:flex justify-center aligns-center mt-[20px] rotate-">
+                         <button
+                              class="sm:w-[150px] h-[50px] bg-[rgb(246,123,111)] rounded-2xl text-[16px] font-normal tracking-[1px] text-white border-2 hover:bg-white hover:text-red-500 mb-[50px]">learn
+                              more</button>
+                    </div>
+               </div>
+               <!-- main3 -->
+               <div class="sm:bg-[rgb(211,225,224)] w-100 h-[100vh] pt-[30px] pl-[420px]">
+                    <div class="sm:w-[800px] h-[380px] bg-[white] rounded-3xl mt-[30px] pt-[30px]">
+                         <h2 class="sm:font-bold font-serif text-[48px] ml-[341px]">Travel with us</h2>
+                         <p class="sm:text-[18px] font-normal leading-9 ml-[341px]">Duis aute irure dolor in reprehenderit
+                              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                         <div class="sm:flex justify-center aligns-center mt-[20px] rotate-">
+                              <button
+                                   class="sm:w-[150px] h-[50px] bg-[rgb(246,123,111)] rounded-2xl text-[16px] font-normal tracking-[1px] text-white border-2 ml-[40px]">learn
+                                   more</button>
+                         </div>
+                    </div>
+                    <img src="./photo-1470770841072-f978cf4d019e.jpg"
+                         class="sm:rounded-full w-[500px] h-[500px] mt-[-350px] ml-[-200px] z-0">
+                    <div
+                         class="sm:w-[160px] h-[160px] rounded-full bg-[rgb(246,123,111)] ml-[150px] mt-[-100px] absolute z-10">
+                    </div>
+
+
+
+               </div>
+               <!-- main4 -->
+               <div class="sm:w-[100%] border-2">
+                    <img src="./ewr-min.jpg" class="sm:w-[100%] h-[120vh] m-auto z-10">
+                    <!-- Cards2 -->
+                    <div
+                         class="sm:grid grid-cols-3 w-[55%] gap-2 border-4  mt-[-760px] ml-[500px] cover ">
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+
+
+
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:border-2 w-[270px] h-[230px] rounded-2xl bg-white z-10"><img
+                                   src="./Снимок экрана 2023-08-27 215801.png" class="sm:m-auto mt-[20px]">
+                              <h4
+                                   class="sm:text-[rgb(71, 97, 96)] text-[16px] font-bold tracking-[2px] flex justify-center aligns-center mt-[20px]">
+                                   FLIGHTS</h4>
+                         </div>
+                         <div class="sm:w-[650px] h-[650px] bg-[rgb(140,152,152)] z-0 rounded-full mt-[-680px] ml-[-300px]">
+
+                         </div>
+                    </div>
+
+               </div>
+</body>
+
+</html>

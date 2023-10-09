@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          backgroundImage: {
+               'rasm': "url(/kapalak2.jpg)",
+               'rasm2': "url(/kapalak.jpg)"
+          },
+        }
+      }
+    }
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body style="background: linear-gradient(45deg, rgb(165,161,149),rgb(199,191,180) ,rgb(189,183,171));">
+     <div class="flex justify-around mt-[20px] mb-[20px]">
+  <div class="bg-rasm w-[100vh] h-[100vh] bg-cover"></div>
+  <div class="bg-rasm2 w-[100vh] h-[100vh] bg-cover"></div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</html>

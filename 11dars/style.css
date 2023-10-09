@@ -1,0 +1,167 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.main{
+     width: 100%;
+     height: 50vh;
+     background-color: aqua;
+}
+.footer{
+     width: 100%;
+     height: 50vh;
+     background-color: rgb(79, 72, 72);
+     color: white;
+     display: flex;
+     justify-content: space-around;
+}
+.footer_contact{
+     width: 20%;
+     /* border: 2px solid white; */
+     height: 100%;
+     padding-top: 50px;
+}
+.footer_company{
+     width: 20%;
+     /* border: 2px solid white; */
+     height: 100%;
+     padding-top: 67px;
+     
+}
+.footer_about{
+     width: 20%;
+     /* border: 2px solid white; */
+     height: 100%;
+     padding-top: 67px;
+}
+.footer_support{
+     width: 20%;
+     /* border: 2px solid white; */
+     height: 100%;
+     padding-top: 67px;
+}
+.footer_contact p{
+     text-align: center;
+     margin-top: 20px;
+}
+.footer a{
+     /* text-decoration: none; */
+     color: white;
+}
+.footer_contact .tel{
+     /* border: 2px solid white; */
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     font-size: larger;
+     font-family: Castellar;
+     font-weight: 600;
+     text-decoration: none;
+}
+.footer_contact a img{
+     width: 40px;
+     border-radius: 10px;
+     margin-top: 20px;
+}
+.footer_contact ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+}
+.footer_contact div-41{
+     width:300px;
+}
+.footer_contact div-41 ul{
+     width: 50px;
+     height: 50px;
+}
+.footer_contact h3{
+     text-align: center;
+     text-decoration: none;
+     margin-top: 45px;
+}
+.footer_company h5{
+     text-align: center;
+     font-size: 20px;
+     margin-left: 40px;
+}
+.footer_about h5{
+     text-align: center;
+     font-size: 20px;
+     margin-left: 40px;
+}
+.footer_support h5{
+     text-align: center;
+     font-size: 20px;
+     margin-left: 40px;
+}
+.footer_company ul{
+     list-style: none;
+     padding-left: 100px;
+     text-decoration: none;
+
+}
+.footer_company ul li a{
+     text-decoration: none;
+}
+.footer_company h2{
+     text-align: center;
+     padding-bottom: 20px;
+     
+     
+}
+.footer_about h5{
+     text-align: center;
+     font-size: 100px;
+}
+.footer_about ul{
+     list-style: none;
+     padding-left: 90px;
+}
+.footer_about h2{
+     text-align: center;
+     padding-bottom: 20px;
+     
+}   
+.footer_support h5{
+     text-align: center;
+     font-size: 20px;
+}
+.footer_support ul{
+     list-style: none;
+     padding-left: 100px;
+}
+.footer_support h2{
+     text-align: center;
+     padding-bottom: 20px;
+     
+} 
+.footer_support h4{
+     border: 2px dashed grey;
+     text-align: center;
+     width: 190px;
+     height: 40px;
+     margin: auto;
+     margin-top: 40px;
+     padding-top: 10px;
+}
+.footer_support a{
+     text-decoration: none;
+}
+.footer_contact .div-41 ul li{
+     width: 500px;
+} 
+.div-41 ul li{
+     padding-left: 50px;
+     margin: auto;
+     font-size: xx-large;
+     
+}
+.div-41 ul li a img{
+     width: 160px;
+     height: 60px;
+}
+.footer_about ul li a{
+     text-decoration: none;
+}

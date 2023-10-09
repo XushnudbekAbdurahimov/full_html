@@ -1,0 +1,30 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.box{
+     width: 500px;
+     height: 500px;
+     background-color: cadetblue;
+     margin: auto;
+     margin-top: 50px;
+     border-radius: 5px;
+     transition: 1s;
+     /* overflow: hidden; */
+     /* display: flex; */
+     overflow: auto;
+     /* overflow: scroll; */
+     
+}
+.box:hover{
+     background-color: blue;
+     
+     
+}
+.box h1{
+     transition: 1s;
+}
+.box:hover h1{
+     color: red;
+}

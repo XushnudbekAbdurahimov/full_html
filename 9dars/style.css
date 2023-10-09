@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.div-1{
+     background-color: black;
+     display: flex;
+     justify-content: space-between;
+     height: 7vh;
+     padding-left: 50px;
+     padding-right: 50px;
+     align-items: center;
+}
+ul{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     align-items: center;
+     width: 430px;
+     text-align: center;
+     font-size: x-large;
+     gap: 30px;
+     /* Gap orasidagi masofani o'zgartiradi */
+     
+     
+}
+a{
+     text-decoration: none;
+     color: rgb(0, 255, 42);
+     display: block;
+     /* display-blocksiz ko'tarilmaydi */
+}
+.div-1 a{
+     color: red;
+}
+.div-2 a{
+     color: rgb(0, 255, 42);
+}
+.div-1 ul li:hover{
+     padding-right: 10px;
+}
+.div-1 ul li:hover{
+     transform: translateY(-7px);
+     /* Bu so'zni bitta-bitta ko'tarishga yordam beradi */
+}
+.div-1 a{
+     font-size: xx-large;
+}
+.div-1 ul a{
+     font-size: x-large;
+}

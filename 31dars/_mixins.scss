@@ -1,0 +1,6 @@
+@mixin theme($theme: gray){
+     width:200px;
+     height: 200px;
+     background-color: $theme;
+     margin: 1px;
+}

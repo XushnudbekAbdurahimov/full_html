@@ -1,0 +1,28 @@
+.container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .box:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  margin: 1px;
+}
+.container .box:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 1px;
+}
+.container .box:nth-child(3) {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 1px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.main{
+     border: 2px solid #16143C;
+     height: 125px;
+     background-color: #16143C;
+     width: 800px;
+
+}
+.main h1{
+     text-align: center;
+     color: white;
+     padding-top: 20px;
+}
+.main_1 ul{
+     display: flex;
+     justify-content: space-evenly;
+     list-style: none;
+     padding-left: 170px;
+     padding-right: 170px;
+}
+.main_1 ul li a{
+     text-decoration: none;
+     color: white;
+     margin: 10px;
+}

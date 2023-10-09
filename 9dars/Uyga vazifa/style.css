@@ -1,0 +1,132 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+.div-1{
+     text-align: center;
+     color: white;
+     border: 2px solid rgb(32, 9, 80);
+     background-color: rgb(48, 9, 132);
+     align-items: center;
+     height: 45px;
+     padding-top: 10px;
+     
+     
+     
+     
+     
+}
+.div-1 a{
+     color: white;
+     align-items: center;
+}
+.div-2{
+     display: flex;
+     justify-content: space-between;
+     border-collapse: collapse;
+     padding-top: 20px;
+}
+.div-2 ul{
+     display: flex;
+     justify-content: space-between;
+     width: 1300px;
+     
+     padding-right: 30px;
+}
+ul{
+     list-style: none;
+     
+}
+.div-2 ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: larger;
+     padding-top: 20px;
+     
+}
+.div-3{
+     padding-left: 50px;
+     
+}
+.div-5{
+     text-align: center;
+}
+
+     .div-8{
+          text-align: center;
+          color: black;
+          font-size: xx-large;
+
+     }
+     .div-8 a{
+          text-decoration: none;
+          color: black;
+     }
+     .div-9{
+          text-align: center;
+          font-size: larger;
+     }
+     .div-9 a{
+          color: grey;
+     }
+     .div-10 ul{
+          display: flex;
+          justify-content: space-between;
+          width: 700px;
+          font-size: x-large;
+          color: white;
+          align-items: center;
+     }
+     .div-10{
+          color: white;
+     }
+     .background-image{
+          background-image: url("./IMG_20230618_144232.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 800px;
+     }
+     .div-10 img{
+          align-items: right;
+     }
+     .div-12 a{
+          text-decoration: none;
+          color: black;
+          border: 10px solid white;
+          background-color: white;
+          width: 700px;
+     }
+     .div-13 a{
+          text-decoration: none;
+          color: white; 
+          border: 10px solid black;
+          background-color: black;
+          width: 800px;
+     }
+     .div-12{
+          display: flex;
+          justify-content: space-between;
+          padding-left: 500px;
+          
+     }
+     .div-12 ul li{
+          font-size: x-large;
+          align-items: center;
+     }
+     .div-12 ul li:hover{
+               transform: translateY(-10px);
+     }
+     .div-3 a{
+          text-decoration: none;
+          color: black;
+          font-family: Chiller;
+          font-size: xx-large;
+     }
+     .div-2 ul li:hover{
+          transform: translateY(-7px);
+     }
+     .div-10 img:hover{
+          transform: translateY(-7px);
+     }

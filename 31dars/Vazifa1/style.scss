@@ -1,0 +1,137 @@
+@import "./valiables";
+@import "./mixins";
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 100%;
+     height: fit-content;
+
+     .card1 {
+          display: flex;
+          align-items: center;
+          width: 75%;
+          margin: auto;
+          padding-left: 85px;
+          margin-top: 20px;
+
+          img {
+               @include img();
+
+               @media (max-width:500px) {
+                   @include media_img;
+               }
+          }
+
+          @media (max-width:500px) {
+               @include media_card1;
+          }
+
+          .about1 {
+               @include about1();
+               margin-left: -50px;
+
+               @media (max-width:500px) {
+                         @include media_about1;
+                         margin-bottom: 500px;
+               }
+
+               h2 {
+                    @include h21();
+                    @media (max-width:500px) {
+                         @include media_about1_h2;
+                    }
+
+               }
+
+               .line1 {
+                    @include line1;
+                    @media (max-width:500px) {
+                        @include media_about1_line1;
+                    }
+               }
+
+               p {
+                    @include p1();
+                    @media (max-width:500px) {
+                         @include media_about1_p1;
+                    }
+               }
+
+               button {
+                    @include button1();
+                    @media (max-width:500px) {
+                         @include media_about1_button1;
+
+                    }
+               }
+          }
+     }
+
+
+
+
+
+
+     .card2 {
+          // border: 2px solid red;
+          display: flex;
+          align-items: center;
+          width: 75%;
+          margin: auto;
+          padding-left: 85px;
+          margin-top: 100px;
+
+          img {
+               @include img();
+               @media (max-width:500px) {
+                    @include media_img;
+               }
+          }
+          @media (max-width:500px) {
+               @include media_card1;
+               transform: translateY(-500px);
+          }
+
+          .about2 {
+               @include about2();
+               margin-left: -80px;
+               @media (max-width:500px) {
+                    @include media_about1;
+                    transform: translateY(1100px);
+               }
+
+               h2 {
+                    @include h22();
+                    @media (max-width:500px) {
+                         @include media_about1_h2;
+                    }
+               }
+
+               .line2 {
+                    @include line2;
+                    @media (max-width:500px) {
+                         @include media_about1_line1;
+                    }
+               }
+
+               p {
+                    @include p2();
+                    @media (max-width:500px) {
+                         @include media_about1_p1;
+                    }
+               }
+
+               button {
+                    @include button2();
+                    @media (max-width:500px) {
+                         @include media_about1_button1;
+                    }
+               }
+          }
+     }
+     }

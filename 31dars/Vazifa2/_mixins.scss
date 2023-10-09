@@ -1,0 +1,35 @@
+@import "./valiables";
+
+@mixin boxs() {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 33%;
+     gap: 10px;
+     margin: auto;
+     @media (max-width:500px) {
+          grid-template-columns: 1fr;
+          margin: 0;
+          width: 100%;
+     }
+}
+
+@mixin box() {
+     display: flex;
+     justify-content: space-between;
+     border: 2px solid white;
+     padding-left: 15px;
+     padding-right: 15px;
+     font-family: $font-size;
+     font-size: 12px;
+     font-weight: 700;
+     align-items: center;
+     width: 248px;
+     height: 60px;
+     background-color: white;
+     @media (max-width:500px) {
+          margin: auto;
+     }
+     h3:nth-child(2){
+          color: rgb(188, 196, 163);
+     }
+}

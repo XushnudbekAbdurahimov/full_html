@@ -1,0 +1,1244 @@
+     @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     body {
+          background: linear-gradient(95deg, rgb(199, 209, 15), rgb(19, 156, 174));
+     }
+
+     .container {
+          width: 1440px;
+          height: 6341px;
+          background-color: whitesmoke;
+          margin: auto;
+          margin-top: 50px;
+     }
+
+     .first_navbar {
+          width: 1440px;
+          height: 110px;
+          background-color: white;
+          display: flex;
+          padding-left: 135px;
+          padding-top: 45px;
+     }
+
+     .img_NO1 {
+          width: 130px;
+          height: 27.36px;
+          margin-left: 120px;
+          margin-right: 120px;
+          margin-top: -10px;
+
+     }
+
+     .navbar_ul {
+          display: flex;
+          list-style: none;
+          gap: 40px;
+     }
+
+     .navbar_ul img {
+          position: absolute;
+          margin-top: 7px;
+     }
+
+     .search_zone {
+          display: flex;
+          position: relative;
+          margin-top: -10px;
+     }
+
+     .search_zone p {
+          font-size: 13px;
+
+     }
+
+     .navbar_ul li a {
+          text-decoration: none;
+          color: rgba(51, 51, 51, 1);
+          font-size: 13px;
+          font-family: Jost;
+          font-weight: 400;
+
+     }
+
+     .hivgvgtvn {
+          position: absolute;
+          top: 17px;
+          left: 195px;
+          font-family: Jost;
+     }
+
+     .search_zone input {
+          width: 238px;
+          height: 50px;
+          text-indent: 10px;
+          color: rgba(153, 153, 153, 1);
+          font-weight: 400;
+          font-size: 13px;
+
+     }
+
+     .search_zone select {
+          color: black;
+     }
+
+     .search_zone_img {
+          width: 50px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          padding-top: 15px;
+          padding-left: 15px;
+          margin-top: -10px;
+
+     }
+
+     .cat ul {
+          margin-right: px;
+          margin-left: 90px;
+          list-style: none;
+          display: flex;
+          gap: 20px;
+     }
+
+     .cat ul li {
+          width: 17.67px;
+          height: 20px;
+     }
+
+     .cat ul li:nth-child(2) {
+          margin-top: 3px;
+     }
+
+     .cat ul li:nth-child(3) {
+          margin-top: 3px;
+     }
+
+     .main {
+          width: 550px;
+          position: relative;
+     }
+
+     .main_img {
+          position: absolute;
+     }
+
+     .p {
+          position: absolute;
+          z-index: 15;
+          top: 160px;
+          left: 136px;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 14px;
+     }
+
+     .main_h1 {
+          position: absolute;
+          font-weight: 700;
+          font-size: 48px;
+          font-family: Jost;
+          top: 185px;
+          left: 135px;
+     }
+
+     .p1 {
+          position: absolute;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 14px;
+          top: 322px;
+          left: 135px;
+     }
+
+     .main_button button {
+          position: absolute;
+          width: 130px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          left: 135px;
+          top: 388px;
+          color: white;
+     }
+
+     .square1 {
+          width: 40px;
+          height: 40px;
+
+          border: 1px solid rgba(2, 48, 71, 1);
+          position: absolute;
+          left: 65px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 260px;
+     }
+
+     .square2 {
+          width: 40px;
+          height: 40px;
+          background-color: rgba(2, 48, 71, 1);
+          position: absolute;
+          left: 1324px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 260px;
+     }
+
+
+
+     .pastki_nuqta ul {
+          display: flex;
+          justify-content: space-between;
+          list-style: none;
+
+     }
+
+     .pastki_nuqta ul li:nth-child(1) {
+
+          position: absolute;
+          top: 500px;
+          left: 688px;
+     }
+
+     .pastki_nuqta ul li:nth-child(2) {
+          position: absolute;
+          top: 500px;
+          left: 716px;
+
+     }
+
+     .pastki_nuqta ul li:nth-child(3) {
+          position: absolute;
+          top: 497px;
+          left: 719px;
+
+     }
+
+     .pastki_nuqta ul li:nth-child(4) {
+          position: absolute;
+          left: 742px;
+          top: 500px;
+     }
+
+     .main2 {
+          height: 650px;
+          width: 1440px;
+          position: relative;
+
+
+     }
+
+     .summer_sale {
+          position: absolute;
+          top: 700px;
+          left: 135px;
+          display: flex;
+     }
+
+     .summer_sale h1 {
+          position: absolute;
+          font-size: 24px;
+          margin-left: 315px;
+          font-family: Jost;
+          top: 215px;
+
+     }
+
+     .summer_sale p {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          margin-left: 315px;
+          position: absolute;
+          top: 190px;
+          color: rgba(2, 48, 71, 1);
+     }
+
+     .sale_button button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(255, 255, 255, 1);
+          position: absolute;
+          margin-left: -255px;
+          top: 255px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+
+     }
+
+     .bags {
+          position: absolute;
+          top: 700px;
+          left: 730px;
+     }
+
+     .bags h1 {
+          position: absolute;
+          font-size: 24px;
+          margin-left: 30px;
+          font-family: Jost;
+          top: 85px;
+
+     }
+
+     .bags p {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          margin-left: 30px;
+          position: absolute;
+          top: 60px;
+          color: rgba(2, 48, 71, 1);
+     }
+
+     .bags button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(255, 255, 255, 1);
+          position: absolute;
+          margin-left: 30px;
+          top: 125px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+
+     }
+
+     .watch1 {
+          position: absolute;
+          top: 940px;
+          left: 730px;
+     }
+
+     .watch1 h1 {
+          position: absolute;
+          font-size: 24px;
+          margin-left: 330px;
+          font-family: Jost;
+          top: 85px;
+
+     }
+
+     .watch1 p {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          margin-left: 330px;
+          position: absolute;
+          top: 60px;
+          color: rgba(2, 48, 71, 1);
+     }
+
+     .watch1 button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(255, 255, 255, 1);
+          position: absolute;
+          margin-left: 330px;
+          top: 125px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+
+     }
+
+     .main3 {
+          width: 1440px;
+          height: 854px;
+          background-color: rgb(225, 222, 222);
+          margin-top: 600px;
+          padding-top: 45px;
+     }
+
+     .main3 h1 {
+          font-size: 36px;
+          font-family: Jost;
+          font-weight: 600;
+          margin-left: 564px;
+     }
+
+     .main3 p {
+          margin-left: 430px;
+          margin-top: 25px;
+
+     }
+
+     .ul {
+          width: 370px;
+          height: 450px;
+          background-color: rgba(204, 204, 204, 1);
+          margin-left: 135px;
+          margin-top: 80px;
+          display: flex;
+     }
+
+     .ul ul {
+          display: flex;
+          list-style: none;
+     }
+
+     .ul li:nth-child(1) {
+          margin-left: 10px;
+          padding-top: 10px;
+          list-style: none;
+     }
+
+     .ul li h1 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 100px;
+          margin-top: 25px;
+     }
+
+     .ul li h2 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 140px;
+          margin-top: 5px;
+     }
+
+     .ul li:nth-child(1) a {
+          text-decoration: none;
+          color: black;
+     }
+
+
+
+
+     .ul li:nth-child(2) {
+          margin-left: 10px;
+          padding-top: 10px;
+          list-style: none;
+     }
+
+     .ul li:nth-child(2) h1 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 80px;
+          margin-top: 25px;
+     }
+
+     .ul li:nth-child(2) h2 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 150px;
+          margin-top: 5px;
+     }
+
+     .ul li:nth-child(2) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .ul li:nth-child(2) {
+          width: 370px;
+          height: 450px;
+          background-color: white;
+          margin-left: 50px;
+          margin-top: 00px;
+     }
+
+
+
+
+
+
+
+
+     .ul li:nth-child(3) {
+          margin-left: 10px;
+          padding-top: 10px;
+          list-style: none;
+     }
+
+     .ul li:nth-child(3) h1 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 110px;
+          margin-top: 25px;
+     }
+
+     .ul li:nth-child(3) h2 {
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 18px;
+          margin-left: 150px;
+          margin-top: 5px;
+     }
+
+     .ul li:nth-child(3) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .ul li:nth-child(3) {
+          width: 380px;
+          height: 507px;
+          background-color: white;
+          margin-left: 50px;
+          margin-top: -30px;
+     }
+
+     .hobr {
+          margin-left: 320px;
+          margin-top: -400px;
+     }
+
+     .line img {
+          position: absolute;
+          z-index: 15;
+          margin-top: 0px;
+          margin-left: 125px;
+     }
+
+
+     .line {
+          width: 380px;
+          height: 70px;
+          background-color: rgba(2, 48, 71, 0.9);
+          position: absolute;
+          margin-top: 290px;
+     }
+
+     .square {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 80.78px;
+          padding-right: 55.78px;
+          margin-top: -280px;
+
+     }
+
+     .square3 {
+          width: 40px;
+          height: 40px;
+          border: 1px solid rgba(2, 48, 71, 1);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .square4 {
+          width: 40px;
+          height: 40px;
+          background-color: rgba(2, 48, 71, 1);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .main4 {
+          width: 1440px;
+          height: 300px;
+          background-color: rgba(2, 48, 71, 1);
+          padding-top: 100px;
+          padding-left: 235px;
+     }
+
+     .in {
+          width: 970px;
+          height: 100px;
+          background-color: rgba(255, 255, 255, 1);
+          padding-top: 30px;
+          display: flex;
+     }
+
+     .in h1 {
+          font-family: Jost;
+          font-size: 24px;
+          font-weight: 500;
+          margin-right: 30px;
+          margin-left: 20px;
+
+     }
+
+     .border {
+          width: 170px;
+          height: 50px;
+          border: 1px dashed rgba(2, 48, 71, 1);
+          margin-right: 30px;
+     }
+
+     .border p {
+          color: rgba(2, 48, 71, 1);
+          font-family: Jost;
+          font-weight: 500;
+          font-size: 14px;
+          margin-top: 15px;
+          margin-left: 30px;
+     }
+
+     h2 {
+          margin-top: 7px;
+     }
+
+     .main5 {
+          width: 1440px;
+          height: 588px;
+          background-color: (255, 255, 255, 1);
+     }
+
+     .main5 h1 {
+          margin-left: 500px;
+          margin-top: 70px;
+     }
+
+     .main5 p {
+          margin-left: 420px;
+          margin-top: 10px;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 14px;
+     }
+
+     h3 {
+          margin-left: 420px;
+          margin-top: 30px;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 18px;
+     }
+
+     .square10 {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 80.78px;
+          padding-right: 55.78px;
+          margin-top: -280px;
+
+     }
+
+     .square5 {
+          width: 40px;
+          height: 40px;
+          border: 1px solid rgba(2, 48, 71, 1);
+          display: flex;
+          margin-top: 250px;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .square6 {
+          width: 40px;
+          height: 40px;
+          background-color: rgba(2, 48, 71, 1);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 250px;
+
+     }
+
+     .gihbtuli img {
+          margin-left: 690px;
+          margin-top: 60px;
+     }
+
+     .asdfg {
+          margin-left: 245px;
+     }
+
+     .asdfg p {
+          margin-left: 435px;
+     }
+
+     .mnbhnjmk {
+          margin-left: 685px;
+          margin-top: 30px;
+     }
+
+     .main6 {
+          width: 1440px;
+          height: 400px;
+
+     }
+
+     .main6 h1 {
+          color: white;
+          margin-top: -320px;
+          margin-left: 560px;
+          font-family: Jost;
+          font-size: 42px;
+          font-weight: 700;
+     }
+
+     .main6 p {
+          color: white;
+          margin-left: 450px;
+     }
+
+     .main6 button {
+          width: 130px;
+          height: 50px;
+          font-family: Jost;
+          font-size: 14px;
+          font-weight: 600;
+          margin-left: 680px;
+          margin-top: 20px;
+     }
+
+     .main7 {
+          width: 1440px;
+          height: 350px;
+          background-color: rgb(218, 216, 216);
+
+     }
+
+     .main7 ul {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 135px;
+          padding-right: 135px;
+          padding-top: 100px;
+     }
+
+     .main7 ul li:nth-child(1) {
+          width: 270px;
+          height: 150px;
+          border: 2px solid rgba(204, 204, 204, 1);
+          list-style: none;
+          font-size: 18px;
+          font-family: Jost;
+          font-weight: 600;
+          padding-top: 10px;
+
+     }
+
+     .main7 ul li:nth-child(1) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .main7 ul li:nth-child(1) img {
+          margin-left: 100px;
+     }
+
+     .main7 ul li:nth-child(1) h2 {
+          margin-left: 35px;
+     }
+
+     .main7 ul li:nth-child(1) p {
+          color: rgba(102, 102, 102, 1);
+          margin-left: 50px;
+     }
+
+
+
+
+
+
+     .main7 ul li:nth-child(2) {
+          width: 270px;
+          height: 150px;
+          border: 2px solid rgba(204, 204, 204, 1);
+          list-style: none;
+          font-size: 18px;
+          font-family: Jost;
+          font-weight: 600;
+          padding-top: 10px;
+
+     }
+
+     .main7 ul li:nth-child(2) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .main7 ul li:nth-child(2) img {
+          margin-left: 120px;
+     }
+
+     .main7 ul li:nth-child(2) h2 {
+          margin-left: 35px;
+     }
+
+     .main7 ul li:nth-child(2) p {
+          color: rgba(102, 102, 102, 1);
+          margin-left: 50px;
+     }
+
+
+
+
+
+     .main7 ul li:nth-child(3) {
+          width: 270px;
+          height: 150px;
+          border: 2px solid rgba(204, 204, 204, 1);
+          list-style: none;
+          font-size: 18px;
+          font-family: Jost;
+          font-weight: 600;
+          background-color: white;
+          padding-top: 10px;
+
+     }
+
+     .main7 ul li:nth-child(3) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .main7 ul li:nth-child(3) img {
+          margin-left: 110px;
+     }
+
+     .main7 ul li:nth-child(3) h2 {
+          margin-left: 35px;
+     }
+
+     .main7 ul li:nth-child(3) p {
+          color: rgba(102, 102, 102, 1);
+          margin-left: 35px;
+     }
+
+
+
+
+
+     .main7 ul li:nth-child(4) {
+          width: 270px;
+          height: 150px;
+          border: 2px solid rgba(204, 204, 204, 1);
+          list-style: none;
+          font-size: 18px;
+          font-family: Jost;
+          font-weight: 600;
+          padding-top: 10px;
+     }
+
+     .main7 ul li:nth-child(4) a {
+          text-decoration: none;
+          color: black;
+     }
+
+     .main7 ul li:nth-child(4) img {
+          margin-left: 110px;
+     }
+
+     .main7 ul li:nth-child(4) h2 {
+          margin-left: 45px;
+     }
+
+     .main7 ul li:nth-child(4) p {
+          color: rgba(102, 102, 102, 1);
+          margin-left: 80px;
+     }
+
+     .main8 {
+          width: 1440px;
+          height: 1029px;
+
+     }
+
+     .main8 h1 {
+          font-size: 30px;
+          font-weight: 500;
+          font-family: Jost;
+          margin-left: 620px;
+          margin-top: 70px;
+     }
+
+     .main8 p {
+          font-size: 14px;
+          font-weight: 400;
+          font-family: Jost;
+          margin-left: 450px;
+          margin-top: 20px;
+     }
+
+     .advertiesment {
+          margin-left: 135px;
+          margin-top: 50px;
+     }
+
+     .birnarsa {
+          width: 670px;
+          height: 272px;
+          background-color: rgba(240, 240, 240, 1);
+          margin-left: 135px;
+          padding-top: 20px;
+     }
+
+     .birnarsa h5 {
+          margin-left: -180px;
+          font-size: 10px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+
+     }
+
+     .birnarsa h1 {
+          margin-left: -180px;
+          font-size: 24px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+          margin-top: -1px;
+     }
+
+     .birnarsa a {
+          color: black;
+     }
+
+     .birnarsa p {
+          margin-left: -180px;
+          font-size: 10px;
+          font-family: Jost;
+          font-weight: 400;
+          margin-left: 30px;
+     }
+
+     .birnarsa button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          color: white;
+          margin-left: 30px;
+          margin-top: 10px;
+          font-weight: 600;
+          font-family: Jost;
+          font-size: 14px;
+     }
+
+
+     .advertiesment2 {
+          margin-left: 850px;
+          margin-top: -675px;
+     }
+
+     .birnarsa2 {
+          width: 470px;
+          height: 82px;
+          background-color: rgba(240, 240, 240, 1);
+          margin-left: 850px;
+          margin-top: -5px;
+          padding-top: 20px;
+     }
+
+     .birnarsa2 h5 {
+          margin-left: -180px;
+          font-size: 10px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+
+     }
+
+     .birnarsa2 h4 {
+          margin-left: -180px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+          margin-top: 5px;
+
+
+     }
+
+     .birnarsa2 button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          color: white;
+          margin-left: 300px;
+          font-weight: 600;
+          font-family: Jost;
+          font-size: 14px;
+          position: absolute;
+          margin-top: -60px;
+     }
+
+
+     .advertiesment3 {
+          margin-left: 850px;
+          margin-top: 40px;
+     }
+
+     .birnarsa3 {
+          width: 470px;
+          height: 82px;
+          background-color: rgba(240, 240, 240, 1);
+          margin-left: 850px;
+          margin-top: -5px;
+          padding-top: 20px;
+     }
+
+     .birnarsa3 h5 {
+          margin-left: -180px;
+          font-size: 10px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+
+     }
+
+     .birnarsa3 h4 {
+          margin-left: -180px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 500;
+          margin-left: 30px;
+          margin-top: 5px;
+
+
+     }
+
+     .birnarsa3 button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          color: white;
+          margin-left: 300px;
+          font-weight: 600;
+          font-family: Jost;
+          font-size: 14px;
+          position: absolute;
+          margin-top: -60px;
+     }
+
+     .main9 {
+          width: 1440px;
+          height: 350px;
+     }
+
+     .main9 h1 {
+          margin-top: -280px;
+          color: white;
+          margin-left: 520px;
+          font-family: Jost;
+          font-size: 30px;
+          font-weight: 500;
+     }
+
+     .main9 p {
+          color: white;
+          margin-left: 495px;
+          font-family: Jost;
+          font-size: 14px;
+          font-weight: 400;
+          margin-top: 10px;
+     }
+
+     .main9 input {
+          width: 440px;
+          height: 50px;
+          text-indent: 10px;
+          margin-left: 430px;
+          margin-top: 20px;
+          border-color: transparent;
+     }
+
+     .main9 button {
+          width: 130px;
+          height: 50px;
+          background-color: rgba(2, 48, 71, 1);
+          color: white;
+          margin-left: -10px;
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 600;
+          border-color: transparent;
+     }
+
+     .main10 {
+          width: 1440px;
+          height: 696px;
+          background-color: rgba(242, 241, 241, 0.844);
+
+     }
+
+     .insta_icon {
+          margin-left: 670px;
+          margin-top: 100px;
+     }
+
+     .insta_icon h1 {
+          margin-left: -160px;
+          font-size: 24px;
+          font-family: Jost;
+          font-weight: 600;
+
+     }
+
+     .main10 ul {
+          display: flex;
+          list-style: none;
+          margin-top: 50px;
+     }
+
+     .footer {
+          width: 1440px;
+          height: 384px;
+          background-color: white;
+     }
+
+     .footer ul {
+          list-style: none;
+          display: flex;
+     }
+
+     .footer ul p {
+          color: rgba(51, 51, 51, 1);
+          margin-top: 20px;
+     }
+
+     .footer ul li a {
+          color: rgba(102, 102, 102, 1);
+     }
+
+     .footer ul li:nth-child(1) {
+          padding-top: 100px;
+          padding-left: 135px;
+     }
+
+     .social {
+          margin-top: 15px;
+          margin-bottom: 15px;
+     }
+
+     .footer ul li:nth-child(2) {
+          margin-top: 100px;
+          margin-left: 80px;
+     }
+
+     .footer ul li:nth-child(2) a {
+          text-decoration: none;
+
+     }
+
+     .footer ul li:nth-child(2) a h1 {
+          color: black;
+          margin-bottom: 20px;
+          font-family: Jost;
+          font-size: 18px;
+          font-weight: 500;
+     }
+
+     .footer ul li:nth-child(2) a h2 {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 1);
+
+     }
+
+
+
+
+
+     .footer ul li:nth-child(3) {
+          margin-top: 100px;
+          margin-left: 80px;
+     }
+
+     .footer ul li:nth-child(3) a {
+          text-decoration: none;
+
+     }
+
+     .footer ul li:nth-child(3) a h1 {
+          color: black;
+          margin-bottom: 20px;
+          font-family: Jost;
+          font-size: 18px;
+          font-weight: 500;
+     }
+
+     .footer ul li:nth-child(3) a h2 {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 1);
+
+     }
+
+
+
+
+     .footer ul li:nth-child(4) {
+          margin-top: 100px;
+          margin-left: 80px;
+     }
+
+     .footer ul li:nth-child(4) a {
+          text-decoration: none;
+
+     }
+
+     .footer ul li:nth-child(4) a h1 {
+          color: black;
+          margin-bottom: 20px;
+          font-family: Jost;
+          font-size: 18px;
+          font-weight: 500;
+     }
+
+     .footer ul li:nth-child(4) a h2 {
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 1);
+
+     }
+
+     .gallery h1 {
+          color: black;
+          margin-bottom: 20px;
+          font-family: Jost;
+          font-size: 18px;
+          font-weight: 500;
+     }
+
+     .gallery {
+          margin-top: 100px;
+          margin-left: 50px;
+     }
+
+     .gallery img {
+          margin-top: -5px;
+          margin-bottom: 5px;
+     }
+     .over{
+          margin-top: -7px;
+          width: 1440px;
+          height: 80px;
+          background-color: rgba(243, 243, 243, 1);
+          padding-top: 30px;
+          display: flex;
+          justify-content: space-between;
+          padding-right: 135px;
+     }
+     .over h2{
+          font-size: 14px;
+          font-family: Jost;
+          font-weight: 400;
+          margin-left: 135px;
+          
+     }
+     .over mark{
+          background-color: transparent;
+          color: black;
+          font-size: 18px;
+          font-weight: 600;
+     }
+     .over ul {
+          display: flex;
+          list-style: none;
+          gap:7px;
+          margin-top: 3px;
+     }

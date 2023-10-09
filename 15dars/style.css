@@ -1,0 +1,35 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.box{
+     width: 500px;
+     height: 500px;
+     border: 2px solid red;
+     margin: auto;
+     /* nomi orqali rangni tanlash */
+     /* Background-color: red; */
+
+
+     /* rgb orqali rangni tanlash */
+     /* background-color: rgb(155, 100, 255); */
+     /* red green blue */
+
+     /* rgba => red green blue alpha */
+     /* background-color: rgba(0, 0, 0, 0.5); */
+
+     /* hex code */
+     background-color: #00000068;
+}
+h1{
+     text-align: center;
+}
+body{
+     background-image: url("./i\ \(3\).webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+
+
+}
